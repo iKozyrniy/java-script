@@ -2,7 +2,7 @@ let input;
 let total = 0;
 
 do {
-    input = prompt('Введіть число');
+    input = prompt('Введите число');
     const number = Number(input);
 
     if (input === null) {
@@ -10,7 +10,7 @@ do {
 }      
     
     if (Number.isNaN(number)) {
-        alert('Було написано не число, спробуйте ще раз');
+        alert('Было написано не число, попробуйте снова');
         continue;
 }
     
@@ -18,4 +18,4 @@ do {
     console.log(number);
 } while (true);
 
-alert(`Загальна сума чисел дорівнює ${total}`);
+alert(`Сумма чисел ${total}`);
