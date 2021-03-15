@@ -1,11 +1,7 @@
-const str = 'Привіт';
-console.log(typeof str);
+const arr1 = [1, 5, '4', 'hello'];
+const arr2 = [true, 2, {}, ['a'], 222];
 
-const num = 123;
-console.log(typeof num);
+console.log(arr1[2]);
+console.log(arr2[2]);
 
-const flag = true;
-console.log(typeof flag);
-
-const txt = 'true';
-console.log(typeof txt);
+console.log(arr1[2] + arr2[2]);
