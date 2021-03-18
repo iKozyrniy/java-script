@@ -21,6 +21,9 @@ switch (country.toLowerCase()) {
       alert ('Доставка в ' + country.toLowerCase() + ' стоит 120 кредитов');
       break;
 
+    case null:
+      alert('Отменено пользователем')
+
     default:
       alert ('В вашей стране доставка недоступна');
 }
