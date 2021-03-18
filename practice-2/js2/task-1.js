@@ -1,2 +1,5 @@
-const name = prompt('Как вас зовут?');
-console.log(name);
+const hello1 = function() {
+    console.log('Привет JavaScript');
+};
+
+hello1();

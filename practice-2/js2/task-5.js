@@ -1,10 +1,33 @@
-const a6 = (5 % 3);
-const a7 = (5 % 3);
-const a8 = (5 + '3');
-const a9 = ('5' - 3);
-const a10 = (75 + 'кг');
-alert(a6);
-alert(a7);
-alert(a8);
-alert(a9);
-alert(a10);
+const  myAverageScore = function(array) {
+let a = 0;
+let total = 0;
+    for (let i = 0; i < array.length; i += 1 ) {
+        a += array[i];
+      }
+      total = a / array.length; 
+    if (total >= 91 && total <= 100) {
+        return `Ваш середній бал ${total}, Myaveragescore: A`;
+      }
+    
+      if (total >= 81 && total <= 90) {
+        return `Ваш середній бал ${total}, Myaveragescore: B`;        
+      }
+    
+      if (total >= 71 && total <= 80) {
+        return `Ваш середній бал ${total}, Myaveragescore: C`;
+      }
+    
+      if (total <= 70) {
+
+        return `Ваш середній бал ${total}, Myaveragescore: D`;
+      }
+      if (total > 100) {
+    
+        return 'Ви ввели не дійсне число';
+      }
+}
+
+console.log(myAverageScore([100, 75, 81, 96]));
+console.log(myAverageScore([45, 63, 85, 70]));
+console.log(myAverageScore([77, 82, 60, 58]));
+console.log(myAverageScore([93, 99, 93, 96]));
