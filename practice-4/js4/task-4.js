@@ -1,8 +1,14 @@
 const a = Math.round(Math.random() * (5 - 1) + 1);
 console.log(Number.parseInt(a));
 
-if (a === 1 || a === 2 || a === 3 || a === 4 || a === 5 ){
-    console.log('число');
-}else{
-    console.log('число1');
+if (a === 1) {
+    console.log('число 1');
+} else if ( a === 2) {
+    console.log('число 2');
+} else if ( a === 3) {
+    console.log('число 3');
+} else if ( a === 4) {
+    console.log('число 4');
+} else if ( a === 5) {
+    console.log('число 5');
 }
