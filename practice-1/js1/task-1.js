@@ -1,7 +1,16 @@
-const arr1 = [1, 5, '4', 'hello'];
-const arr2 = [true, 2, {}, ['a'], 222];
+const user = {};
 
-console.log(arr1[2]);
-console.log(arr2[2]);
+user.userName = ('Sasha');
+user.age = 13;
 
-console.log(arr1[2] + arr2[2]);
+user.showUserName = function() {
+    return (this.userName);
+};
+
+user.updateAge = function() {
+    return this.age = this.age + 1;
+};
+
+console.log(user.showUserName())
+console.log(user.updateAge());
+

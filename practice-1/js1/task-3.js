@@ -1,6 +1,15 @@
-const arr2 = [true, 2, {}, ['a'], 222];
+const calculator = {
+  a: prompt("Введите число a"),
+  b: prompt("Введите число b"),
+  sum() {
+    const sum = Number(this.a) + Number(this.b);
+    return sum;
+  },
+  mult() {
+    const x = Number(this.a) * Number(this.b);
+    return x;
+  }
+};
 
-for (const arr of arr2) {
-    console.log(arr);
-    console.log(typeof(arr));
-}
+console.log(calculator.sum());
+console.log(calculator.mult());

@@ -1,7 +1,15 @@
-const arr1 = [1, 5, '4', 'hello'];
+const salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+};
 
-arr1[4] = 22;
+const values = Object.values(salaries);
 
-for (const arr of arr1) {
-    console.log(arr);
-}
+let sum = 0;
+
+for (const value of values) {
+    sum += value;
+};
+
+console.log(sum);
