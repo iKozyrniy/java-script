@@ -1,3 +1,4 @@
+
 let credits = 23580;
 const pricePerDroid = 3000;
 let totalPrice;
@@ -20,3 +21,4 @@ if (totalPrice > credits) {
     credits = (credits - totalPrice);
     console.log('Вы купили ', how, ' дроидов, на счету осталось ', credits, ' кредитов')
 }
+

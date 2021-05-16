@@ -1,3 +1,4 @@
+
 const country = prompt('Введите страну');
 
 switch (country.toLowerCase()) {

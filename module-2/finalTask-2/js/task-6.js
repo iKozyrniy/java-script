@@ -1,3 +1,4 @@
+
 let input;
 const numbers = [];
 let total = 0;
@@ -20,5 +21,6 @@ if (numbers.length > 0) {
         total += numbers[i];
     }
 }
+
 
 console.log(`Сумма чисел равна ${total}`)

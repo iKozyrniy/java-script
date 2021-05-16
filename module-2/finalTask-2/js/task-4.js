@@ -1,3 +1,4 @@
+
 const formatString = function (string) {
     if (string.length < 41) {
         return(string);

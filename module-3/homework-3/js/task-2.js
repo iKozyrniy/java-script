@@ -1,3 +1,4 @@
+
 const countProps = function (obj) {
   const values = Object.values(obj);
   return values.length;

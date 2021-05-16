@@ -1,3 +1,4 @@
+
 const  myAverageScore = function(array) {
 let a = 0;
 let total = 0;

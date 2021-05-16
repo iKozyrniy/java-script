@@ -1,3 +1,4 @@
+
 const arr1 = [1, 5, '4', 'hello'];
 
 arr1[4] = 22;

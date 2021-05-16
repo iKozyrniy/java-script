@@ -1,3 +1,4 @@
+
 const ADMIN_PASSWORD = 'hello';
 let message;
 
@@ -16,3 +17,4 @@ switch (password) {
 }
 
 alert (message);
+

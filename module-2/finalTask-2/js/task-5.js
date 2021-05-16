@@ -1,3 +1,4 @@
+
 const checkForSpam = function (message) {
     let array = message.toLowerCase();
     if (array.includes('spam')) {

@@ -1,3 +1,4 @@
+
 const myNewArrowFunction = (...rest) => {
     console.log(rest);
 };

@@ -1,3 +1,4 @@
+
 const message = 'Welcome to Ukraine!';
 
 const letters = (message.split(''));

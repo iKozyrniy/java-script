@@ -1,3 +1,4 @@
+
 const cafe = {
   name: 'Republic',
   width: 200,

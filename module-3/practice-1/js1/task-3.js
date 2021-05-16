@@ -1,3 +1,4 @@
+
 const calculator = {
   a: prompt("Введите число a"),
   b: prompt("Введите число b"),
