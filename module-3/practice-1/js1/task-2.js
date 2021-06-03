@@ -1,10 +1,15 @@
-
 const salaries = {
     John: 100,
     Ann: 160,
     Pete: 130
 };
 
-const sum = (salaries.John + salaries.Ann + salaries.Pete);
+const values = Object.values(salaries);
 
-console.log(sum);
+let total = 0;
+
+for (const value of values) {
+  total += value;
+}
+
+console.log(total);
