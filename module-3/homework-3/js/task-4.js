@@ -1,19 +1,13 @@
-const countTotalSalary = function (employees) {
-  const values = Object.values(countTotalSalary);
-
+function countTotalSalary(employees) {
   let total = 0;
-
-  for (const value of values) {
-    total += value;
+  for (const employee in employees) {
+    total += employees[employee];
   }
 
   return total;
-};
+}
 
-/*
- * Викличи функції для перевірки працездатності твоєї реалізації.
- */
-console.log(countTotalSalary({})); // 0
+console.log(countTotalSalary({}));
 
 console.log(
   countTotalSalary({
@@ -21,7 +15,7 @@ console.log(
     poly: 150,
     alfred: 80,
   })
-); // 330
+);
 
 console.log(
   countTotalSalary({
@@ -29,4 +23,4 @@ console.log(
     lux: 50,
     chelsy: 150,
   })
-); // 400
+);
